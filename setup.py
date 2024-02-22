@@ -29,7 +29,7 @@ with open('src/oebuild/version.py', 'r', encoding="utf-8") as f:
 version = os.environ.get('OEBUILD_VERSION', __version__)
 
 setuptools.setup(
-    name='oebuild',
+    name='yocto_oebuild',
     version=version,
     author='alichinese',
     author_email='',
